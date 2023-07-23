@@ -5,20 +5,44 @@
         </title>
         <!--fav icon is the icon shown on title and it is always added in head by using <link rel="icon" type="" href="">-->
         <link rel="icon" type="licensed-image?q" href="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQkrjYxSfSHeCEA7hkPy8e2JphDsfFHZVKqx-3t37E4XKr-AT7DML8IwtwY0TnZsUcQ">
+            <!--you can make your hmtl stylish by using style and then designing it-->
+        <style>
+            .city {
+                background-color: bisque;
+                color: #000;
+            } 
+            .tb {
+        border: 1px solid black;
+      }  
+        </style>
+
     </head>
+
     <body>
     <!--- is used for commenting-->
     <!--<h1></h1> is for heading <br>-->
     <!--#we can also add style directly by using <style></style> or make a new style.css file--->
+    
     <h1 style= "
     background-color: wheat;
     color: aqua;">
     Using doctype page.</h1>
+    
+    <!--we can call style class in new container aka div or just use it in a new body(container)-->
+    <div class="city">
+        <p>trying style class </p>
+    </div>
+
     <!--# <p></p> is for paragraph-->
     <p> HEllo i am under hte water.</p>
+
+    <!--we can use number or alpahbet as power using strong etc-->
+    <p>X <strong>2</strong></p>
+
     <!--#we can redirect to website using <a href=""></a> in a(attribute) <br>
     #to break we use <br>-->
-    <a href="https://www.daraz.pk/"> <br> daraz</a>
+    <a href="https://www.daraz.pk/"> <br> daraz </a>
+
     <br><!--#image can be added using <img src="" alt=""> while alt is it's name and is used for seo.-->
     <!--we can also give files using directory if that file is in the same main folder--><br>
     <img 
@@ -26,33 +50,71 @@
     height="102"
     src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQkrjYxSfSHeCEA7hkPy8e2JphDsfFHZVKqx-3t37E4XKr-AT7DML8IwtwY0TnZsUcQ" 
     alt="hassan"/> <br>
-    <!--you can make your hmtl stylish by using style and then designing it-->
-    <style>
-       
 
-    </style>
     <!--to make table  we use <table></table> and then tr (table row) and then th(table heading) and td (table data)-->
-    <table>
+    <table style="border: 2px solid seagreen ; width: 5px;">
         <tr>
-            <th>id</th>
-            <th>name</th>
-            <th>contact</th>
-            <th>email</th>
+            <th class="tb">id</th>
+            <th class="tb">name</th>
+            <th class="tb">contact</th>
+            <th class="tb">email</th>
         </tr>
         <tr>
-            <td>1234</td>
-            <td>abcd</td>
-            <td>0123456789</td>
-            <td>abcd@abc</td>
+    
+            <td class="tb">1234</td>
+            <td class="tb">abcd</td>
+            <td class="tb">0123456789</td>
+            <td class="tb">abcd@abc</td>
         </tr>
         <tr>
-            <td>456</td>
-            <td>hgb</td>
-            <td>987614</td>
-            <td>fgssfs@adas</td>
+    
+            <td class="tb">456</td>
+            <td class="tb">hgb</td>
+            <td class="tb">987614</td>
+            <td class="tb">fgssfs@adas</td>
+    
         </tr>
     </table>
+    <br>
+    <table class="tb">
+        <tr>
+            <th class="tb">id</th>
+            <th class="tb">name</th>
+            <th class="tb">contact</th>
+            <th class="tb">email</th>
+        </tr>
+        <tr>
+    
+            <td class="tb">1234</td>
+            <td class="tb">abcd</td>
+            <td class="tb">0123456789</td>
+            <td class="tb">abcd@abc</td>
+        </tr>
+        <tr>
+    
+            <td class="tb">456</td>
+            <td class="tb">hgb</td>
+            <td class="tb">987614</td>
+            <td class="tb">fgssfs@adas</td>
+    
+        </tr>
+    </table>
+    
+
+    <!--we can make button using button by adding javascript-->
+    <p id="demo"></p>
+    <button
+      type="button"
+      onclick="document.getElementById('demo').innerHTML = 'this is paragraph data....'"
+    >
+      Click me
+    </button>
+    <!-- <script>
+      document.getElementById("demo").innerHTML = "this is paragraph data....";
+    </script> -->
+
     </body>
     <!--one body is a  container and a container can also be defined using div-->
-    <!--we can make button using button by adding javascript-->
+    
+
 </html>

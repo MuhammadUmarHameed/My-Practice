@@ -1,0 +1,3 @@
+vs code short key 
+for copy paste: alt+shft+arrowkey
+for multiple line of same code: code(link,head,body,table,th,image,type etc) * num

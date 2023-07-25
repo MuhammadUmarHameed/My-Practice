@@ -1,0 +1,45 @@
+body{
+    background-color: darkgrey;
+}
+/* commenting is done this way in css*/
+h1{
+    color: aqua;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+.sttr{
+
+    background-color: rgb(140, 8, 180);
+    color: slateblue;
+
+}
+
+p.hello{
+    color: black;
+}
+h1.infer{
+    color: rgb(255, 0, 157);
+}
+.tre{
+
+    opacity: 0.52;
+    color: black;
+}
+table,th,td{
+    border-style: solid;
+}
+.tba{
+    
+    border: 1px solid  ;
+    padding-left: 50px;
+    margin-right: 1000px;
+    /* padding is used to control internal borders while margin is use for external borders*/
+    /*color: rgb(52, 94, 75);*/
+    /*color:#005e*/
+    /*color: hsl(hue, saturation, lightness);*/
+}

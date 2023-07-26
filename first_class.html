@@ -45,11 +45,23 @@
 
     <br><!--#image can be added using <img src="" alt=""> while alt is it's name and is used for seo.-->
     <!--we can also give files using directory if that file is in the same main folder--><br>
-    <img 
+    <button 
+    type="button" 
+    onclick="showimage()">
+    <img
     width="190"
     height="102"
-    src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQkrjYxSfSHeCEA7hkPy8e2JphDsfFHZVKqx-3t37E4XKr-AT7DML8IwtwY0TnZsUcQ" 
-    alt="hassan"/> <br>
+     src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQkrjYxSfSHeCEA7hkPy8e2JphDsfFHZVKqx-3t37E4XKr-AT7DML8IwtwY0TnZsUcQ" 
+    alt="hassan" style="display: none;">
+    <span>Say hi to hassan by clicking</span>
+    </button>
+    <script>
+        function showimage(){
+            var image=document.querySelector("img")
+            image.style.display="block"
+        }
+    </script>
+     <br>
 
     <!--to make table  we use <table></table> and then tr (table row) and then th(table heading) and td (table data)-->
     <table style="border: 2px solid seagreen ; width: 5px;">
@@ -103,11 +115,11 @@
 
     <!--we can make button using button by adding javascript-->
     <p id="demo"></p>
-    <button
-      type="button"
-      onclick="document.getElementById('demo').innerHTML = 'this is paragraph data....'"
-    >
-      Click me
+    
+    <p>to go back to main page</p>
+    <button type="button">
+    <a href="/My-Practice/HW/index.html">  Click me</a>
+    
     </button>
     <!-- <script>
       document.getElementById("demo").innerHTML = "this is paragraph data....";

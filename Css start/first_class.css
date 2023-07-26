@@ -43,3 +43,6 @@ table,th,td{
     /*color:#005e*/
     /*color: hsl(hue, saturation, lightness);*/
 }
+p.new{
+    text-align:left;
+}

@@ -46,3 +46,22 @@ table,th,td{
 p.new{
     text-align:left;
 }
+.bsg{
+    text-align: center;
+    font-size: medium;
+    background-color: aqua;
+    color: azure;
+    border-color: saddlebrown;
+    border: 3px solid  ;
+    outline-color: black;
+    outline: 5px;
+    border-style: dashed;
+    /*padding-left: 50px;
+    margin-right: 1000px;/*
+    /* padding is used to control internal borders while margin is use for external borders*/
+    /*color: rgb(52, 94, 75);*/
+    /*color:#005e*/
+    /*color: hsl(hue, saturation, lightness);*/
+    height: 10%;
+    width: 10%;
+}
